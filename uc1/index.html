@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Informa ao navegador a versão do HTML, no caso a 5 -->
+<html lang="pt-br">
+    <!-- Informa o idioma da página -->
+<head>
+    <!-- HEAD tag onde ficam as configurações da página - parte não visual -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleFT/style.css">
+    <title>Hello World</title>
+    <!-- Únnica tag  no HEAD que é visível -->
+</head>
+<body>
+    </style>
+    <!-- BODY tag onde ficam as tags visuais - o conteúdo que vemos na página -->
+    <h1>Formulário do Torcedor</h1>
+    <form action=""
+    <div><p>Preencha com seus dados:</p></div><br>
+    <label for="Nome">Nome:</label>
+    <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome" required><br>
+    <label for="Sobrenome">Sobrenome:</label>
+    <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Digite seu sobrenome" required><br><br>
+    <label for="Idade">Idade:</label>
+    <input type="date" name="Idade" id="Idade"><br><br>
+    <label for="Celular">Celular:</label>
+    <input type="tel" minlength="11" maxlength="11" name="Celular" id="Celular" placeholder="(xx) xxxxx-xxxx" required><br><br>
+    <p>Qual seu Time do Coração?</p>
+    <select name="Time" id="time" required>
+        <option value="selecione seu time" disabled selected>Selecione seu time</option>
+        <option value="Flamengo">Flamengo</option>
+        <option value="Vasco">Vasco</option>
+        <option value="Botafogo">Botafogo</option>
+        <option value="Fluminense">Fluminense</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Palmeiras">Palmeiras</option>
+        <option value="Corinthians">Corinthians</option>
+        <option value="Santos">Santos</option>
+        <option value="Outros">Outros</option>
+    </select><br><br>
+    <p>É Sócio Torcedor?</p>
+    <label for="sim">Sim</label>
+    <input type="radio" name="simenao" id="sim" value="Sim">
+    <label for="nao">Não</label>
+    <input type="radio" name="simenao" id="nao" value="Não"><br><br>
+    <p>Gostaria de receber notícias do seu time?</p>
+    <label for="sim">Sim</label>
+    <input type="radio" name="simenaos" id="sim" value="Sim">
+    <label for="nao">Não</label>
+    <input type="radio" name="simenaos" id="nao" value="Não"><br><br>
+    <p>Costuma frequentar estádio?</p>
+    <select name="estádios" id="estadio" required>
+        <option value="selecione seu estádio" disabled selected>Selecione seu estádio</option>
+        <option value="nunca fui">Nunca fui</option>
+        <option value="1 vez por mês">1 vez por mês</option>
+        <option value="2 a 3 vezes por mês">2 a 3 vezes por mês</option>
+        <option value="mais de 3 vezes por mês">Mais de 3 vezes por mês</option>
+    </select><br><br><br>
+    <input type="submit" value="Enviar Formulário">
+    </form>
+</body>
+</html>
